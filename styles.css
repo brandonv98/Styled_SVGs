@@ -102,7 +102,7 @@ footer {
   /*height: 120px;*/
 }
 /*Hide text for mobile*/
-#Layer_1 g:nth-child(3) {
+#Layer_4 g:nth-child(3) {
   visibility: hidden;
 }
 header h1:nth-child(2) {
@@ -145,7 +145,7 @@ main ul li:nth-child(1) .st3 { fill:#EAAA7F;}
 
 /*Media Queries*/
 @media (min-width: 425px) {
-  #Layer_1 g:nth-child(3){
+  #Layer_4 g:nth-child(3){
     visibility: visible;
   }
   /*hide text for * < mobile*/
