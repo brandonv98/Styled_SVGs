@@ -96,11 +96,6 @@ footer {
   color: #ba8058;
 }
 
-/*Logo SVG*/
-#Layer_1 {
-  /*width: 140px;*/
-  /*height: 120px;*/
-}
 /*Hide text for mobile*/
 #Layer_4 g:nth-child(3) {
   visibility: hidden;
@@ -110,37 +105,27 @@ header h1:nth-child(2) {
   visibility: visible;
 }
 
-/*Dog SVGs*/
-main ul:nth-child(2) li svg{
-  width: 170px;
-  height: 170px;
-}
 
-/*Colors*/
+/*Dog Colors*/
+.dog-face { fill:#FBFEFF;}
+.dog-eyes { fill:#2D3339;}
 
 /*Black and Tan*/
-main ul li:nth-child(4) .st0 { fill:#B12331;}
-main ul li:nth-child(4) .st1 { fill:#52595F;}
-main ul li:nth-child(4) .st2 { fill:#FBFEFF;}
-main ul li:nth-child(4) .st3 { fill:#2D3339;}
+.dog-black-tan { fill:#B12331;}
+.dog-black-tan-eye-brows { fill:#52595F;}
+.dog-black-tan-eyes {fill:#52595F}
 
 /*Stable*/
-main ul li:nth-child(3) .st0 { fill:#6b5b46;}
-main ul li:nth-child(3) .st1 { fill:#FBFEFF;}
-main ul li:nth-child(3) .st2 { fill:#2D3339;}
-main ul li:nth-child(3) .st3 { fill:#BA8058;}
+.dog-stable { fill:#6b5b46;}
+.dog-stable-eye-brows { fill:#BA8058;}
 
 /*Fawn*/
-main ul li:nth-child(2) .st0 { fill:#8c8378;}
-main ul li:nth-child(2) .st1 { fill:#FBFEFF;}
-main ul li:nth-child(2) .st2 { fill:#2D3339;}
-main ul li:nth-child(2) .st3 { fill:#F4C6A6;}
+.dog-fawn { fill:#8c8378;}
+.dog-fawn-eye-brows { fill:#F4C6A6;}
 
 /*Red*/
-main ul li:nth-child(1) .st0 { fill:#cea26d;}
-main ul li:nth-child(1) .st1 { fill:#FBFEFF;}
-main ul li:nth-child(1) .st2 { fill:#2D3339;}
-main ul li:nth-child(1) .st3 { fill:#EAAA7F;}
+.dog-red { fill:#cea26d;}
+.dog-red-eye-brows { fill:#EAAA7F;}
 
 
 /*Media Queries*/
